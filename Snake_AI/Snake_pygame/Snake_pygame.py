@@ -4,16 +4,8 @@ from enum import Enum
 from collections import namedtuple
 import numpy as np
 
-
 pygame.init()
 font = pygame.font.SysFont('arial', 25)
-
-#reset 
-#reward
-#play(action) -->  direction
-#game_iteration
-#is_collision
-
 class Direction(Enum):
     RIGHT = 1
     LEFT = 2
